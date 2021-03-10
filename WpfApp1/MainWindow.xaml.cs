@@ -38,6 +38,8 @@ namespace WpfApp1
 					MessageBox.Show(result);
 				});
 
+
+
 				await hub.StartAsync();
 			}catch(Exception ex)
 			{
